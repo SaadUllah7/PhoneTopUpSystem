@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ugSptmrxXRjcOvB++k/rNaRYW9FUwQaf9zPIBSOv2Z4=",
+  "Source": "PhoneTopUpSystem.API",
+  "BasePath": "_content/PhoneTopUpSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

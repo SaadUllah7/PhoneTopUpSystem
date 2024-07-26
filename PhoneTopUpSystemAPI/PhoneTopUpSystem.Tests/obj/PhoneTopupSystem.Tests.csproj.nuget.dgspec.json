@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.Tests/PhoneTopupSystem.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/PhoneTopUpSystem.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/PhoneTopUpSystem.API.csproj",
+        "projectName": "PhoneTopUpSystem.API",
+        "projectPath": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/PhoneTopUpSystem.API.csproj",
+        "packagesPath": "/Users/saadullah/.nuget/packages/",
+        "outputPath": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/saadullah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.Tests/PhoneTopupSystem.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.Tests/PhoneTopupSystem.Tests.csproj",
+        "projectName": "PhoneTopupSystem.Tests",
+        "projectPath": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.Tests/PhoneTopupSystem.Tests.csproj",
+        "packagesPath": "/Users/saadullah/.nuget/packages/",
+        "outputPath": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/saadullah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/PhoneTopUpSystem.API.csproj": {
+                "projectPath": "/Users/saadullah/Documents/Projects/PhoneTopUpSystem/PhoneTopUpSystemAPI/PhoneTopUpSystem.API/PhoneTopUpSystem.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
